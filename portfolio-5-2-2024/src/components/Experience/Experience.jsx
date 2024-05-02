@@ -8,7 +8,7 @@ const Experience = () => {
       id: 1,
       role: "IT SUPPORT",
       company: "NEP Realty and Industry PLC, Thailand",
-      date: "June 2023 - Present",
+      date: "June 2023 - April 2024",
       responsibility: [
         {
           id: 1,
@@ -82,7 +82,7 @@ const Experience = () => {
             {myExperience.map((data) => (
               <div
                 className={
-                  data.id < 2
+                  data.id < 0
                     ? "animate-border-pink bg-pink-500 rounded-md p-5 text-black dark:text-white"
                     : "animate-border-purple bg-purple-500 rounded-md p-5 text-black dark:text-white"
                 }

@@ -68,9 +68,9 @@ const Project = () => {
 
                 {project.banner !== ""
                   ?
-                  <img className="w-[200px] h-[160px] md:w-full md:h-[180px] object-cover rounded-lg shadow-md shadow-pink-500/70 md:hover:scale-110 duration-200" src={project.banner} alt="bannerImage" />
+                  <img className="w-[200px] h-[160px] md:w-full md:h-[250px] object-cover rounded-lg shadow-md shadow-pink-500/70 md:hover:scale-110 duration-200" src={project.banner} alt="bannerImage" />
                   :
-                  <div className="w-[200px] h-[160px] md:w-full md:h-[180px] rounded-md object-cover md:hover:scale-110 duration-200 text-center bg-gradient-to-r from-pink-500 to-purple-300 border border-pink-500 shadow-md shadow-pink-500/70 flex items-center justify-center px-1">
+                  <div className="w-[200px] h-[160px] md:w-full md:h-[250px] rounded-md object-cover md:hover:scale-110 duration-200 text-center bg-gradient-to-r from-pink-500 to-purple-300 border border-pink-500 shadow-md shadow-pink-500/70 flex items-center justify-center px-1">
                     <p className="font-bold text-xl drop-shadow-md">Not Avaliable</p>
                   </div>
                 }
